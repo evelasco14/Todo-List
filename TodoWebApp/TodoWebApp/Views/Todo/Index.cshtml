@@ -1,0 +1,30 @@
+﻿@model TodoListViewModel
+@{
+    ViewData["Title"] = "Todo List";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<div>
+    <ul>
+
+        @foreach (TodoListItem item in Model.List)
+        {
+
+    <li>
+        @Html.ActionLink(@item.Text, "Edit", new { id = item.Id })
+        @if (item.Timestamp != null)
+        {
+            @Html.Label(@item.Text, "(edited " + @item.Timestamp + ")")
+        }
+        </li>
+
+         }
+        </ul>
+
+    <div>
+        <button>
+            @Html.ActionLink("Add Task", "Create")
+        </button>
+    </div>
+</div>

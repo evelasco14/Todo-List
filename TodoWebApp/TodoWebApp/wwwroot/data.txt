@@ -1,0 +1,9 @@
+1|Take out the trash|12/14/2019 10:36:20 PM
+2|Do the dishes|12/14/2019 10:40:59 PM
+3|Shop for holiday gifts|12/14/2019 10:40:58 PM
+4|Wash the car|12/14/2019 10:40:56 PM
+5|Complete dotnet core assignment|
+6|Recycling|12/14/2019 10:38:52 PM
+7|Homework|12/14/2019 10:40:44 PM
+8|Stuff|12/14/2019 10:57:23 PM
+9|Walk my dog|
